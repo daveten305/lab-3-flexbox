@@ -6,6 +6,43 @@
 *{
   box-sizing: border-box;
 }
+/* Base Styling */
+body {
+  max-width: 780px;
+  margin: 0 auto;
+}
+nav, section, header, .line1, .line2, .line3{
+  border: solid 1px black;
+}
+.logo {
+  flex: 2;
+}
+ul li a{
+  text-decoration: none;
+  margin: 10px;
+  color: #000;
+}
+nav section ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  flex: 6;
+}
+header {
+  height: 80px;
+}
+.line1, .line2, .line3 {
+  height: 60px;
+}
+.line2 {
+    display: flex;
+}
+.line2 .left{
+  flex: 3;
+}
+.line2 .right{
+  flex: 7;
+}
 
 /******************************************
 /* LAYOUT

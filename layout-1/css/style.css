@@ -6,10 +6,58 @@
 *{
   box-sizing: border-box;
 }
+/* Base Styling  */
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0 auto;
+  max-width: 780px;
+}
+nav, section, article, header {
+  border: 1px solid black;
+
+}
+.flex1 {
+  margin-top: 5px;
+}
+ 
+nav div ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 15px;
+  /* flex: 4; */
+}
+nav div ul a{
+  color: #000;
+  text-decoration: none;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  height: 50px;
+}
+.flex3 {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header{
+  height: 50px;
+}
+.flex4 {
+  height: 50px;
+  /* border: 1px solid black; */
+}
+
+ 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 
 
 
